@@ -33,5 +33,18 @@ $results=$ddg->search('php','hk-tzh');//Hong Kong
 
 ```
 
+### Time range
+
+You can also search in a specific time range:
+
+```php
+
+$ddg=new DuckDuckGo;
+$results=$ddg->search('php','hk-tzh','m');//Last month
+
+```
+
+
+
 
 
