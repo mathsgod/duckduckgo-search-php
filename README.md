@@ -22,4 +22,16 @@ $results=$ddg->search('php');
 
 ```
 
+### Region
+
+You can also search in a specific region:
+
+```php
+
+$ddg=new DuckDuckGo;
+$results=$ddg->search('php','hk-tzh');//Hong Kong
+
+```
+
+
 
