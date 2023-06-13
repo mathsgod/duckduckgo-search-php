@@ -1,5 +1,6 @@
 {
     "name": "mathsgod/duckduckgo-search-php",
+    "description": "A PHP library to search DuckDuckGo.",
     "authors": [
         {
             "name": "Raymond Chong",
