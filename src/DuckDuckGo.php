@@ -5,10 +5,11 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class DuckDuckGo
 {
-    public function search(string $query, ?string $region = null, ?string $time = null)
+    public function search(string $query, int $page = 1, ?string $region = null, ?string $time = null)
     {
         $form_params = [
             'q' => $query,
+            'dc' => $page
         ];
 
         if ($region) {
